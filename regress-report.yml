@@ -15,7 +15,6 @@ test-cases:
   - summary: |
       Проверка очистки корзины
     status: pass 
----   
 bugreports:
   - summary: |
       Не работает фильтр категории "smartphones" по бренду "APPLe"
