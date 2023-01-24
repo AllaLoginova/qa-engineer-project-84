@@ -19,6 +19,7 @@ test-cases:
   - summary: |
       Проверка очистки корзины
     status: pass
+    
 ---   
 bugreports:
   - summary: |
