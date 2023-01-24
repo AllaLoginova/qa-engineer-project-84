@@ -3,18 +3,23 @@ test-cases:
   - summary: |
       Проверка добавления товара в корзину
     status: pass
+    
   - summary: |
       Успешная проверка фильтра по цене
-    status: fail   
+    status: fail
+    
   - summary: |
       Проверка удаления товара из корзины
-    status: pass    
+    status: pass
+    
   - summary: |
       Проверка возможности добавления в "Корзину" товаров разных категорий
-    status: pass    
+    status: pass
+    
   - summary: |
       Проверка очистки корзины
-    status: pass 
+    status: pass
+    
 bugreports:
   - summary: |
       Не работает фильтр категории "smartphones" по бренду "APPLe"
@@ -28,4 +33,4 @@ bugreports:
     expected-result: |
       Отображаются товары по ключевой категории и бренду
     actual-result: |
-      Отображаются товары всех брендов
+      Не отображаются товары по ключевой категории и бренду
