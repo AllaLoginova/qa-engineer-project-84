@@ -1,5 +1,4 @@
 ---
-test-cases:
   - summary: |
       Проверка добавления товара в корзину
     status: pass
@@ -19,17 +18,3 @@ test-cases:
   - summary: |
       Проверка очистки корзины
     status: pass
-    
-bugreports:
-  - summary: |
-      Невозможно прочитать описание товара на русском языке
-    environment: |
-      Google Chrome версия 109.0.5414.75 (Официальная сборка), 64 бит
-      ОС Windows 7
-    steps-to-reproduce: |
-      1. На главной странице приложения нажать кнопку 'Language"
-      2. В выпадающем списке выбрать Russian
-    expected-result: |
-      Описание товаров на русском языке
-    actual-result: |
-      Описание товаров на английском языке
